@@ -1,0 +1,6 @@
+C:\Users\AaronX\Documents\Visual Studio 2017\Projects\KemonomimiSharp\KemonomimiSharp\bin\Release\KemonomimiSharp.dll
+C:\Users\AaronX\Documents\Visual Studio 2017\Projects\KemonomimiSharp\KemonomimiSharp\bin\Release\KemonomimiSharp.pdb
+C:\Users\AaronX\Documents\Visual Studio 2017\Projects\KemonomimiSharp\KemonomimiSharp\obj\Release\KemonomimiSharp.csproj.CoreCompileInputs.cache
+C:\Users\AaronX\Documents\Visual Studio 2017\Projects\KemonomimiSharp\KemonomimiSharp\obj\Release\KemonomimiSharp.dll
+C:\Users\AaronX\Documents\Visual Studio 2017\Projects\KemonomimiSharp\KemonomimiSharp\obj\Release\KemonomimiSharp.pdb
+C:\Users\AaronX\Documents\Visual Studio 2017\Projects\KemonomimiSharp\KemonomimiSharp\obj\Release\KemonomimiSharp.csprojResolveAssemblyReference.cache
