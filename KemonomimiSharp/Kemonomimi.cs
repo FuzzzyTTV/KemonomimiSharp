@@ -4,98 +4,73 @@ namespace KemonomimiSharp
 {
     public class Kemonomimi
     {
-        public String Name;
-        public String Type;
-        public String Gender;
-        public float Weight;
+        public string Name;
+        public string Type;
+        public string Gender = "Female";
+        public float Wieght;
+        public int Points = 0;
+
         public bool LikesYou;
-        public int Patted;
-        public int Points;
 
-        public void LogName()
+        public int timesPatted = 0;
+        public int preferedPats = 2;
+        public string pattedMessage = "Is really loving you right now!";
+        public string annoyedMessage = "Is starting to get kind of annoyed.";
+
+        public void logAll(bool Indents)
         {
-            Console.WriteLine(Name);
+            if (Indents == false)
+            {
+                Console.WriteLine(Name);
+                Console.WriteLine(Type);
+                Console.WriteLine(Gender);
+            }
+            else
+            {
+                Console.WriteLine(Name);
+                Console.WriteLine(" ");
+                Console.WriteLine(Type);
+                Console.WriteLine(" ");
+                Console.WriteLine(Gender);
+            }
+                
         }
 
-
-        public void LogType()
+        public void checkLike(int recommendedPoints)
         {
-            Console.WriteLine(Type);
+            if(Points >= recommendedPoints)
+            {
+                LikesYou = true;
+            }
         }
 
-
-        public void LogGender()
+        public void Headpat(bool nameBeforeMessage)
         {
-            Console.WriteLine(Gender);
-        }
-
-
-        public void LogWeight()
-        {
-            Console.WriteLine(Weight);
-        }
-
-
-        public void LogLikes()
-        {
-            Console.WriteLine(LikesYou);
-        }
-
-
-        public void LogTimesPatted()
-        {
-            Console.WriteLine(Patted);
-        }
-
-        public void LogAll()
-        {
-            Console.WriteLine(Name);
-            Console.WriteLine(Type);
-            Console.WriteLine(Gender);
-            Console.WriteLine(Weight + " Pounds");
-        }
-
-        public void Headpat()
-        {
-            Test.Patted = Test.Patted + 1;
-
-            if (Patted <= 2)
+            timesPatted = timesPatted + 1;
+            checkLike(2);
+            if (timesPatted <= preferedPats)
             {
                 Points = Points + 1;
-            }
-
-
-            if (Patted > 2)
-            {
-                Points = Points - 1;
-                Console.WriteLine(Name + " is starting to get kind of annoyed");
-            }
-
-
-            if (Type == "Fox" || Type == "fox" || Type == "Kitsune" || Type == "kitsune" || Type == "Bunny" || Type == "bunny" || Type == "Rabbit" || Type == "rabbit")
-            {
-
-                if (Patted < 2)
+                if (nameBeforeMessage == true)
                 {
-                    Console.WriteLine(Name+ " Is really loving you right now!");
+                    Console.WriteLine(Name + " " + pattedMessage);
                 }
-
+                else
+                {
+                    Console.WriteLine(pattedMessage);
+                }
             }
-
-
-            if (Type == "Cat" || Type == "cat" || Type == "Neko" || Type == "neko")
+            if (timesPatted > preferedPats)
             {
-                Console.WriteLine(Name + " has started purring!");
+                if (nameBeforeMessage == true)
+                {
+                    Console.WriteLine(Name + " " + annoyedMessage);
+                }
+                else
+                {
+                    Console.WriteLine(annoyedMessage);
+                }
             }
-
-
-            if (Type == "Dog" || Type == "dog" || Type == "Wolf" || Type == "wolf" || Type == "Okami" || Type == "okami")
-            {
-                Console.WriteLine(Name + " has started panting in happyness!");
-            }
-
-
         }
-
     }
 }

@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{09F931B9-6F85-4EEE-984C-7EA5003EFFB4}</ProjectGuid>
+    <ProjectGuid>{23B77B11-3DF4-46A7-BB1B-5DBEC022DB6F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Test</RootNamespace>
     <AssemblyName>Test</AssemblyName>
@@ -33,7 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="KemonomimiSharp">
-      <HintPath>..\KemonomimiSharp\bin\Release\KemonomimiSharp.dll</HintPath>
+      <HintPath>..\KemonomimiSharp\bin\Debug\KemonomimiSharp.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

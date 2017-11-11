@@ -1,9 +1,0 @@
-C:\Users\AaronX\Documents\Visual Studio 2017\Projects\KemonomimiSharp\Test\bin\Release\Test.exe.config
-C:\Users\AaronX\Documents\Visual Studio 2017\Projects\KemonomimiSharp\Test\bin\Release\Test.exe
-C:\Users\AaronX\Documents\Visual Studio 2017\Projects\KemonomimiSharp\Test\bin\Release\Test.pdb
-C:\Users\AaronX\Documents\Visual Studio 2017\Projects\KemonomimiSharp\Test\bin\Release\KemonomimiSharp.dll
-C:\Users\AaronX\Documents\Visual Studio 2017\Projects\KemonomimiSharp\Test\bin\Release\KemonomimiSharp.pdb
-C:\Users\AaronX\Documents\Visual Studio 2017\Projects\KemonomimiSharp\Test\obj\Release\Test.csprojResolveAssemblyReference.cache
-C:\Users\AaronX\Documents\Visual Studio 2017\Projects\KemonomimiSharp\Test\obj\Release\Test.csproj.CoreCompileInputs.cache
-C:\Users\AaronX\Documents\Visual Studio 2017\Projects\KemonomimiSharp\Test\obj\Release\Test.exe
-C:\Users\AaronX\Documents\Visual Studio 2017\Projects\KemonomimiSharp\Test\obj\Release\Test.pdb

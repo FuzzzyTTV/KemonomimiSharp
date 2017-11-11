@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5897EA10-A858-4093-B3B7-802F5B0F6774}</ProjectGuid>
+    <ProjectGuid>{A03C81F6-E270-4DBE-A4B7-D94C58340E4E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>KemonomimiSharp</RootNamespace>
