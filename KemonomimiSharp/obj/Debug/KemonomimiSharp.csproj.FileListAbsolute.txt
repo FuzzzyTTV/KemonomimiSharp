@@ -4,3 +4,5 @@ C:\Users\AaronX\Documents\Visual Studio 2017\Projects\KemonomimiSharp\Kemonomimi
 C:\Users\AaronX\Documents\Visual Studio 2017\Projects\KemonomimiSharp\KemonomimiSharp\obj\Debug\KemonomimiSharp.csproj.CoreCompileInputs.cache
 C:\Users\AaronX\Documents\Visual Studio 2017\Projects\KemonomimiSharp\KemonomimiSharp\obj\Debug\KemonomimiSharp.dll
 C:\Users\AaronX\Documents\Visual Studio 2017\Projects\KemonomimiSharp\KemonomimiSharp\obj\Debug\KemonomimiSharp.pdb
+C:\Users\AaronX\Documents\Visual Studio 2017\Projects\KemonomimiSharp\KemonomimiSharp\bin\Debug\MongoDB.Bson.dll
+C:\Users\AaronX\Documents\Visual Studio 2017\Projects\KemonomimiSharp\KemonomimiSharp\bin\Debug\MongoDB.Bson.xml

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Test
+﻿namespace Test
 {
     class Program
     {
@@ -13,19 +11,19 @@ namespace Test
 
             Test.logAll(false);
 
-            Console.WriteLine("Would you like to headpat her?");
-            Console.WriteLine(" ");
-            Console.WriteLine("A: Yes");
-            Console.WriteLine(" ");
-            Console.WriteLine("B: No");
-            Console.WriteLine(" ");
-            Console.WriteLine("C: Check the ammount of times patted.");
-            Console.WriteLine(" ");
-            Console.WriteLine("D: Check if she likes you!");
-            Console.WriteLine(" ");
+            System.Console.WriteLine("Would you like to headpat her?");
+            System.Console.WriteLine(" ");
+            System.Console.WriteLine("A: Yes");
+            System.Console.WriteLine(" ");
+            System.Console.WriteLine("B: No");
+            System.Console.WriteLine(" ");
+            System.Console.WriteLine("C: Check the ammount of times patted.");
+            System.Console.WriteLine(" ");
+            System.Console.WriteLine("D: Check if she likes you!");
+            System.Console.WriteLine(" ");
 
             start:
-            string Input = Console.ReadLine();
+            string Input = System.Console.ReadLine();
 
             if(Input == "A" || Input == "a")
             {
@@ -34,23 +32,23 @@ namespace Test
             }
             if (Input == "B" || Input == "b")
             {
-                Console.WriteLine("Ok then I guess.");
+                System.Console.WriteLine("Ok then I guess.");
                 goto start;
             }
             if (Input == "C" || Input == "c")
             {
-                Console.WriteLine(Test.timesPatted);
+                System.Console.WriteLine(Test.timesPatted);
                 goto start;
             }
             if (Input == "D" || Input == "d")
             {
                 if(Test.LikesYou == true)
                 {
-                    Console.WriteLine("She likes you!");
+                    System.Console.WriteLine("She likes you!");
                 }
                 if (Test.LikesYou == false)
                 {
-                    Console.WriteLine("She doesn't likes you! :( ");
+                    System.Console.WriteLine("She doesn't likes you! :( ");
                 }
                 goto start;
             }

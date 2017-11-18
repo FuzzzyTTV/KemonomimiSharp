@@ -1,13 +1,19 @@
-﻿using System;
-
-namespace KemonomimiSharp
+﻿namespace KemonomimiSharp
 {
     public class Kemonomimi
     {
+        [MongoDB.Bson.Serialization.Attributes.BsonElement("Name")]
         public string Name;
+
+        [MongoDB.Bson.Serialization.Attributes.BsonElement("Type")]
         public string Type;
+
+        [MongoDB.Bson.Serialization.Attributes.BsonElement("Gender")]
         public string Gender = "Female";
+
+        [MongoDB.Bson.Serialization.Attributes.BsonElement("Weight")]
         public float Wieght;
+
         public int Points = 0;
 
         public bool LikesYou;
@@ -21,17 +27,17 @@ namespace KemonomimiSharp
         {
             if (Indents == false)
             {
-                Console.WriteLine(Name);
-                Console.WriteLine(Type);
-                Console.WriteLine(Gender);
+                System.Console.WriteLine(Name);
+                System.Console.WriteLine(Type);
+                System.Console.WriteLine(Gender);
             }
             else
             {
-                Console.WriteLine(Name);
-                Console.WriteLine(" ");
-                Console.WriteLine(Type);
-                Console.WriteLine(" ");
-                Console.WriteLine(Gender);
+                System.Console.WriteLine(Name);
+                System.Console.WriteLine(" ");
+                System.Console.WriteLine(Type);
+                System.Console.WriteLine(" ");
+                System.Console.WriteLine(Gender);
             }
                 
         }
@@ -53,22 +59,22 @@ namespace KemonomimiSharp
                 Points = Points + 1;
                 if (nameBeforeMessage == true)
                 {
-                    Console.WriteLine(Name + " " + pattedMessage);
+                    System.Console.WriteLine(Name + " " + pattedMessage);
                 }
                 else
                 {
-                    Console.WriteLine(pattedMessage);
+                    System.Console.WriteLine(pattedMessage);
                 }
             }
             if (timesPatted > preferedPats)
             {
                 if (nameBeforeMessage == true)
                 {
-                    Console.WriteLine(Name + " " + annoyedMessage);
+                    System.Console.WriteLine(Name + " " + annoyedMessage);
                 }
                 else
                 {
-                    Console.WriteLine(annoyedMessage);
+                    System.Console.WriteLine(annoyedMessage);
                 }
             }
         }
